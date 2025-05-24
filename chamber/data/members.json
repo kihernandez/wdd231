@@ -1,0 +1,65 @@
+[
+  {
+    "image": "company1.png",
+    "name": "Hakan Solutions",
+    "address": "Innovaatioaukio 12, 20540 Turku, Finland",
+    "phone": "+358 2 1234567",
+    "website": "https://www.hakansolutions.com",
+    "membership_level": 2,
+    "description": "An innovative technology firm specializing in AI and cloud computing solutions for businesses worldwide."
+  },
+  {
+    "image": "company2.png",
+    "name": "Indigo Palace",
+    "address": "Ravintolakatu 8, 20100 Turku, Finland",
+    "phone": "+358 2 9876543",
+    "website": "https://www.indigopalace.com",
+    "membership_level": 3,
+    "description": "A fine-dining restaurant offering Michelin-star quality meals with locally sourced ingredients."
+  },
+  {
+    "image": "company3.png",
+    "name": "Sunset Tours",
+    "address": "Matkailutie 15, 20210 Turku, Finland",
+    "phone": "+358 2 4567890",
+    "website": "https://www.sunsettours.com",
+    "membership_level": 1,
+    "description": "Premier travel agency offering exotic vacation packages with guided tours and immersive experiences."
+  },
+  {
+    "image": "company4.jpg",
+    "name": "Thunder Theme Park",
+    "address": "Seikkailupuisto 22, 20300 Turku, Finland",
+    "phone": "+358 2 2223333",
+    "website": "https://www.thunderpark.com",
+    "membership_level": 2,
+    "description": "A thrilling amusement park featuring roller coasters, water rides, and entertainment for all ages."
+  },
+  {
+    "image": "company5.png",
+    "name": "Grand History Museum",
+    "address": "Museokatu 5, 20100 Turku, Finland",
+    "phone": "+358 2 7778888",
+    "website": "https://www.grandhistory.com",
+    "membership_level": 3,
+    "description": "A world-renowned museum showcasing art, ancient artifacts, and historical exhibitions."
+  },
+  {
+    "image": "company6.png",
+    "name": "Nitro Energy Corp",
+    "address": "Energiahovi 10, 20400 Turku, Finland",
+    "phone": "+358 2 3334444",
+    "website": "https://www.nitroenergycorp.com",
+    "membership_level": 1,
+    "description": "A leading renewable energy provider specializing in solar and wind power solutions."
+  },
+  {
+    "image": "company7.jpg",
+    "name": "Dash Tech Labs",
+    "address": "Teknologiapolku 7, 20500 Turku, Finland",
+    "phone": "+358 2 8889999",
+    "website": "https://www.dashtechlabs.com",
+    "membership_level": 2,
+    "description": "Cutting-edge research firm dedicated to developing next-generation robotics and smart automation."
+  }
+]
