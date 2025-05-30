@@ -27,7 +27,7 @@
     "description": "Premier travel agency offering exotic vacation packages with guided tours and immersive experiences."
   },
   {
-    "image": "company4.jpg",
+    "image": "company4.png",
     "name": "Thunder Theme Park",
     "address": "Seikkailupuisto 22, 20300 Turku, Finland",
     "phone": "+358 2 2223333",
@@ -54,7 +54,7 @@
     "description": "A leading renewable energy provider specializing in solar and wind power solutions."
   },
   {
-    "image": "company7.jpg",
+    "image": "company7.png",
     "name": "Dash Tech Labs",
     "address": "Teknologiapolku 7, 20500 Turku, Finland",
     "phone": "+358 2 8889999",

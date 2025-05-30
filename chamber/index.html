@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is the directory page for Turku Chamber of Commerce, it provides a list of local business and other organizations that belong to the chamber of commerce.">
+    <meta name="author" content="Kevin Hernandez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description"
+        content="A directory page for the chamber of commerce site that provides information about the site and its members.">
+    <meta property="og:image" content="https://kihernandez.github.io/wdd231/chamber/images/logo.png">
+    <meta property="og:url" content="https://kihernandez.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Chamber of Commerce">
+    <meta property="og:locale" content="en_US">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Turku" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+
+
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <img src="images/logo.png" alt="A logo of the site" width="120" height="120">
+            <div class="header-titles">
+                <span class="site-name">Turku</span>
+                <span class="site-subtitle">Chamber of Commerce</span>
+            </div>
+        </div>
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/hero.webp" alt="Hero Image" class="hero-image">
+            <div class="hero-overlay"></div> 
+            <div class="hero-content">
+                <p><strong>Launch. Grow. Thrive.</strong></p>
+                <p>From idea to enterprise — your partner every step of the way</p>
+                <a href="join.html" class="cta-button">Join Now</a>
+            </div>
+        </section>
+
+        <div class="welcome">
+            <h1>🏠 Home</h1>
+        </div>
+        <section class="home-section">
+            <div class="events">
+                <h2>Events</h2>
+                <ul>
+                    <li>📌 June 15 - Summer Networking Meetup</li>
+                    <li>📌 July 20 - Annual Business Awards</li>
+                    <li>📌 August 6 - Tech Summit 2025</li>
+                    <li>📌 September 10 - Starting your own Business Workshop</li>
+                </ul>
+            </div>
+            <div class="weather">
+                <h2>Current Weather</h2>
+                <img class="weather-icon" alt="Weather Icon" />
+                <p class="current-temp"></p>
+                <p class="weather-description"></p>
+                <p class="temp-high-low"></p>
+                <p class="humidity"></p>
+                <p class="sunrise"></p>
+                <p class="sunset"></p>
+            </div>
+            <div class="forecast">
+                <h2>Weather Forecast</h2>
+                <div class="forecast-items"></div>
+            </div>
+        </section>
+
+        <section class="spotlight">
+            <h2>🪙 Our Top Members</h2>
+            <div class="spotlight-items"></div>
+        </section>
+
+
+    </main>
+    <footer>
+        <div>
+            <h3>Turku Chamber of Commerce</h3>
+            <p>Kaarle Knuutinpojan rantatie,</p>
+            <p>20810 Turku, Finland</p>
+            <p>info@turku.org</p>
+            <p>(883) 465-6500</p>
+        </div>
+        <div class="sociallinks">
+
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" width="30"
+                    height="30"></a>
+            <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter" width="30" height="30"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram" width="30"
+                    height="30"></a>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Kevin Hernandez</p>
+            <p>&copy;<span id="currentyear"></span> Kevin Hernandez, United States All rights reserved.</p>
+            <p id="LastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
