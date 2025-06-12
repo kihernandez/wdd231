@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is the discover page for Turku Chamber of Commerce, where businesses and individuals can learn about the area and all the feaures it has to offer.">
+    <meta name="author" content="Kevin Hernandez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description"
+        content="This is the discover page for Turku Chamber of Commerce, where businesses and individuals can learn about the area and all the feaures it has to offer.">
+    <meta property="og:image" content="https://kihernandez.github.io/wdd231/chamber/images/logo.png">
+    <meta property="og:url" content="https://kihernandez.github.io/wdd231/chamber/join.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Discover Chamber of Commerce">
+    <meta property="og:locale" content="en_US">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Turku" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+
+
+    <title>Turku Chamber of Commerce Discover Page</title>
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/discover.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <img src="images/logo.png" alt="A logo of the site" width="120" height="120">
+            <div class="header-titles">
+                <span class="site-name">Turku</span>
+                <span class="site-subtitle">Chamber of Commerce</span>
+            </div>
+        </div>
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html" class="active">Discover</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Discover the Turku Chamber of Commerce</h1>
+        <div class="card-container" id="card-container">
+        </div>
+        <aside id="sidebar">
+            <div id="last-visit-message" class="visit-message"></div>
+        </aside>
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-button" id="close-modal">&times;</span>
+                <p id="modal-price"></p>
+                <p id="modal-hours"></p>
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer>
+        <div>
+            <h3>Turku Chamber of Commerce</h3>
+            <p>Kaarle Knuutinpojan rantatie,</p>
+            <p>20810 Turku, Finland</p>
+            <p>info@turku.org</p>
+            <p>(883) 465-6500</p>
+        </div>
+        <div class="sociallinks">
+
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" width="30"
+                    height="30"></a>
+            <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter" width="30" height="30"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram" width="30"
+                    height="30"></a>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Kevin Hernandez</p>
+            <p>&copy;<span id="currentyear"></span> Kevin Hernandez, United States All rights reserved.</p>
+            <p id="LastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

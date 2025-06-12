@@ -1,0 +1,19 @@
+@media (min-width: 1025px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    grid-template-columns: 1fr; 
+    grid-template-areas:
+    "name"  
+    "image"
+    "description"
+    "address"
+    "button";
+  }
+
+  .card img {
+    height: 400px;
+  }
+}

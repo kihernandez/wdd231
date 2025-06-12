@@ -1,0 +1,60 @@
+@media (max-width: 600px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        grid-template-areas: 
+            "image"
+            "name"
+            "description"
+            "address"
+            "button";
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #000;
+        position: absolute;
+        top: 100%;
+        right: 2rem;
+        width: 200px;
+        padding: 1rem;
+        border-radius: 5px;
+        z-index: 1000;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    nav ul li {
+        text-align: right;
+    }
+
+    nav ul li:hover {
+        background-color: var(--warm-gold);
+        color: var(--deep-blue);
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:focus,
+    nav ul li a:active {
+        color: #000;
+        transition: color 0.3s ease;
+    }
+
+}

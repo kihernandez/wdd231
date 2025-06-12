@@ -1,0 +1,66 @@
+[
+  {
+    "image": "turkucastle.webp",
+    "name": "Turku Castle",
+    "address": "Linnankatu 80, Turku, Finland",
+    "description": "A historic castle dating back to the 13th century, offering guided tours and exhibitions on Finnish history.",
+    "price": "Adults: €10, Children: Free",
+    "openingHours": "Mon-Sun: 10:00 - 18:00"
+  },
+  {
+    "image": "turkuforum.webp",
+    "name": "Forum Marinum Maritime Centre",
+    "address": "Linnankatu 72, 20100 Turku, Finland",
+    "description": "A maritime museum showcasing Finland's naval history with ship exhibits and interative displays.",
+    "price": "Adults: €12, Children: €6",
+    "openingHours": "Tue-Sun: 10:00 - 17:00"
+  },
+  {
+    "image": "turkuwam.webp",
+    "name": "WAM - Turku Art Museum",
+    "address": "Itäinen Rantakatu 38, 20101 Turku, Finland",
+    "description": "A comptemporary art museum featuring Finnish and international artists, with rotating exhibitions.",
+    "price": "Adults: €10, Students: €5, Children: Free",
+    "openingHours": "Tue-Sun: 11:00 - 18:00"
+  },
+  {
+    "image": "turkupharmacy.webp",
+    "name": "Pharmacy Museum and Qwensel House",
+    "address": "Läntinen Rantakatu 13 b, Turku, Finland",
+    "description": "A unique museum located in a 18th-century pharmacy, showcasing the history of medicine and pharmacy in Finland.",
+    "price": "Adults: €8, Children: Free",
+    "openingHours": "Tue-Sun: 10:00 - 17:00"
+  },
+  {
+    "image": "turkumarket.webp",
+    "name": "Turku Market Hall",
+    "address": "Eerikinkatu 16, 20100 Turku, Finland",
+    "description": " A unique indoor market featuring local produce, artisanal foods, and crafts from the Turku region.",
+    "price": "Free entry, prices vary by vendor",
+    "openingHours": "Mon-Sat: 8:00 - 18:00, Sun: Closed"
+  },
+  {
+    "image": "turkucathedral.webp",
+    "name": "Turku Cathedral",
+    "address": "Tuomiokirkonkatu 1, 20500 Turku, Finland",
+    "description": "The oldest stone church in Finland, dating back to the 13th century, known for its stunning architecture and historical significance.",
+    "price": "Free entry, donations appreciated",
+    "openingHours": "Mon-Sat: 9:00 - 18:00, Sun: 12:00 - 16:00"
+  },
+  {
+    "image": "turkukylamaki.webp",
+    "name": "Kylämäki Village",
+    "address": "Jaanintie 45, Turku, Finland",
+    "description": "An open air museum that recreates rural Finnish life from the 19th century, with traditional buildings and farm animals.",
+    "price": "Adults: €6, Children: Free",
+    "openingHours": "Tue-Sun: 10:00 - 17:00"
+  },
+  {
+    "image": "turkulibrary.webp",
+    "name": "Turku City Library",
+    "address": "Linnankatu 2 4, 20100 Turku, Finland",
+    "description": "A modern library with a vast collection of books and digital resources, offering a variety of culltural events and workshops.",
+    "price": "Free entry, some events may have a fee",
+    "openingHours": "Mon-Fri: 9:00 - 20:00, Sat: 10:00 - 16:00, Sun: Closed"
+  }
+]
