@@ -60,6 +60,12 @@ header {
     font-family: var(--heading-font);
 }
 
+.site-subtitle {
+    font-size: 1.2rem;
+    color: var(--white);
+    font-family: var(--font-secondary);
+}
+
 nav {
     position: relative;
     font-family: var(--font-primary)
@@ -100,6 +106,13 @@ nav ul li a.active {
     border-bottom: 3px solid var(--rust-orange);
 }
 
+h1 {
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    color: var(--forest-green);
+    text-align: center;
+    margin-top: 2rem;
+}
 .hero {
     display: flex;
 }

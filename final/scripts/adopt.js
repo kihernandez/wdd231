@@ -15,7 +15,7 @@ async function loadFeaturedAnimals() {
       const card = document.createElement('div');
       card.classList.add('animal-card');
       card.innerHTML = `
-        <img src="images/${animal.image}" alt="${animal.name}" width="200">
+        <img src="images/${animal.image}" alt="${animal.name}" width="200" loading="lazy">
         <h4>${animal.name}</h4>
         <p><strong>Species:</strong> ${animal.species}</p>
         <p><strong>Age:</strong> ${animal.age}</p>
