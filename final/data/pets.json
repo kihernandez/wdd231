@@ -1,0 +1,152 @@
+[
+  {
+    "species": "Cat",
+    "image":"whiskers.webp",
+    "name": "Whiskers",
+    "age": 3,
+    "description": "Curious and independent, enjoys climbing and exploring.",
+    "personality": "Playful yet reserved",
+    "special_talent": "Can open doors with his paws",
+    "history": "Rescued from an abandoned building, now loves a warm home."
+  },
+  {
+    "species": "Cat",
+    "image": "felix.webp",
+    "name": "Felix",
+    "age": 5,
+    "description": "Laid-back and affectionate, loves lounging in sunny spots.",
+    "personality": "Gentle and loving",
+    "special_talent": "Expert at catching toy mice",
+    "history": "Once a stray, now enjoys the company of humans."
+  },
+  {
+    "species": "Cat",
+    "image": "luna.webp",
+    "name": "Luna",
+    "age": 2,
+    "description": "Sweet and social, loves cuddles and attention.",
+    "personality": "Friendly and energetic",
+    "special_talent": "Can mimic human speech sounds",
+    "history": "Rescued from a crowded shelter, looking for a forever home."
+  },
+  {
+    "species": "Dog",
+    "image": "buddy.webp",
+    "name": "Buddy",
+    "age": 4,
+    "description": "Loyal and protective, enjoys long walks and playing fetch.",
+    "personality": "Brave and affectionate",
+    "special_talent": "Can balance treats on his nose",
+    "history": "Found wandering near a highway, now loves outdoor adventures."
+  },
+  {
+    "species": "Dog",
+    "image": "rex.webp",
+    "name": "Rex",
+    "age": 6,
+    "description": "Gentle giant who loves people and other dogs.",
+    "personality": "Calm and friendly",
+    "special_talent": "Knows how to open latches",
+    "history": "Surrendered due to owner’s relocation, seeking a new family."
+  },
+  {
+    "species": "Dog",
+    "image": "max.webp",
+    "name": "Max",
+    "age": 3,
+    "description": "Energetic and eager to learn, thrives with training.",
+    "personality": "Enthusiastic and intelligent",
+    "special_talent": "Can jump impressively high",
+    "history": "Rescued from a neglectful home, now loves interactive games."
+  },
+  {
+    "species": "Hamster",
+    "image": "cinnamon.webp",
+    "name": "Cinnamon",
+    "age": 1,
+    "description": "Tiny explorer, enjoys burrowing and nibbling treats.",
+    "personality": "Adventurous and curious",
+    "special_talent": "Creates elaborate tunnels in his bedding",
+    "history": "Rescued from a pet store that was closing down."
+  },
+  {
+    "species": "Dog",
+    "image": "leo.webp",
+    "name": "Leo",
+    "age": 5,
+    "description": "Confident and protective, bonds deeply with his owners.",
+    "personality": "Loyal and strong-willed",
+    "special_talent": "Can detect emotional changes in people",
+    "history": "Previously trained as a service dog, now looking for companionship."
+  },
+  {
+    "species": "Dog",
+    "image": "sadie.webp",
+    "name": "Sadie",
+    "age": 3,
+    "description": "Kind-hearted and calm, enjoys gentle attention.",
+    "personality": "Sweet and patient",
+    "special_talent": "Comforts people with a gentle nuzzle",
+    "history": "Survived a rough start, now enjoys peaceful evenings."
+  },
+  {
+    "species": "Dog",
+    "image": "rocky.webp",
+    "name": "Rocky",
+    "age": 4,
+    "description": "High-energy pup who loves running and outdoor activities.",
+    "personality": "Fearless and playful",
+    "special_talent": "Excellent at scent tracking",
+    "history": "Rescued from a neglectful household, now thriving in playgroups."
+  },
+  {
+    "species": "Dog",
+    "image": "daisy.webp",
+    "name": "Daisy",
+    "age": 2,
+    "description": "Loves playing with toys and meeting new people.",
+    "personality": "Outgoing and social",
+    "special_talent": "Can spin in circles on command",
+    "history": "Brought to the shelter as a puppy, ready for a lifelong friend."
+  },
+  {
+    "species": "Dog",
+    "image": "charlie.webp",
+    "name": "Charlie",
+    "age": 2,
+    "description": "Happy-go-lucky pup who enjoys playtime and cuddles.",
+    "personality": "Cheerful and affectionate",
+    "special_talent": "Can fetch objects by name",
+    "history": "Born in a shelter, waiting for a first real home."
+  },
+  {
+    "species": "Hamster",
+    "image": "biscuit.webp",
+    "name": "Biscuit",
+    "age": 1,
+    "description": "Friendly and enjoys rolling in his exercise ball.",
+    "personality": "Gentle and active",
+    "special_talent": "Can recognize his owner's voice",
+    "history": "Given up by a previous owner, now looking for a cozy home."
+  },
+  {
+    "species": "Parrot",
+    "image": "sunny.webp",
+    "name": "Sunny",
+    "age": 4,
+    "description": "Colorful and talkative, loves singing and interacting.",
+    "personality": "Charming and clever",
+    "special_talent": "Can mimic common phrases",
+    "history": "Rescued from an overpopulated aviary, now enjoys personal attention."
+  },
+  {
+    "species": "Parrot",
+    "image": "rio.webp",
+    "name": "Rio",
+    "age": 5,
+    "description": "Intelligent and playful, loves solving puzzles.",
+    "personality": "Mischievous and fun-loving",
+    "special_talent": "Can imitate different sounds, including doorbells",
+    "history": "Was left behind during a move, now thriving in shelter care."
+  }
+]

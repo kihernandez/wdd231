@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is the Contact Us page for Arkline Animal Shelter, where you can meet our team, find our locations, and fill out a voluneteer form.">
+    <meta name="author" content="Kevin Hernandez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta property="og:title" content="Arkline Animal Shelter Contact Us Page">
+    <meta property="og:description"
+        content="This is the Contact Us page for Arkline Animal Shelter, where you can meet our team, find our locations, and fill out a voluneteer form.">
+    <meta property="og:image" content="https://kihernandez.github.io/wdd231/final/images/logo.png">
+    <meta property="og:url" content="https://kihernandez.github.io/wdd231/final/contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Arkline Animal Shelter">
+    <meta property="og:locale" content="en_US">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+    <title>Arkline Animal Shelter Contact Us Page</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <script type="module" src="scripts/contact.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <img src="images/logo.png" alt="A logo of the site" width="120" height="110">
+            <div class="header-titles">
+                <span class="site-name">Arkline</span>
+                <span class="site-subtitle">Animal Shelter</span>
+            </div>
+        </div>
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="adopt.html">Adopt</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-header">
+            <h2>Contact Us</h2>
+
+            <p>Our team at Arkline animal shelter is here to support both you and the animals in our care. Whether
+                you’re looking to adopt, need pet care advice, or want to help, we’re here for you. Volunteers make a
+                huge
+                impact by assisting with daily care, socialization, and events, while donations help provide food,
+                medical care, and shelter. Your support—through time or contributions—gives every pet a second
+                chance. Reach out and be part of our mission!"</p>
+        </section>
+        <section class="contact-info">
+           
+            <div class="team-container">
+                <div class="contact-team">
+                    <h2>Our Locations</h2>
+                    <p>We have multiple locations across France to better serve our community and the animals in need.
+                        Feel
+                        free to visit us at any of our shelters or contact us for more information.</p>
+                    <p><strong>1. </strong>12 Rue des Lilas, 75009 Paris, France</p>
+                    <p><strong>2. </strong> Avenue du Soleil, 69004 Lyon, France</p>
+                    <p><strong>3. </strong> Place de la Mer, 13006 Marseille, France</p>
+                    <p><strong>4. </strong> Quai de l'Archevêché, 75004 Paris, France</p>
+                    <h2>Our Administrative Team</h2>
+                </div>
+                <div class="team-cards">
+                    <div class="team-card">
+                        <img src="images/team1.webp" alt="James Dawn">
+                        <h4>James Dawn</h4>
+                        <p>Executive Director</p>
+                        <p>Expertise: Animal welfare & fundraising</p>
+                    </div>
+                    <div class="team-card">
+                        <img src="images/team2.webp" alt="Mark Thomas">
+                        <h4>Mark Thomas</h4>
+                        <p>Manager</p>
+                        <p>Expertise: Logistics & shelter management</p>
+                    </div>
+                    <div class="team-card">
+                        <img src="images/team3.webp" alt="Isabelle Grenier">
+                        <h4>Isabelle Grenier</h4>
+                        <p>Adoption Coordinator</p>
+                        <p>Expertise: Pet placement & behavioral assessments</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="form-container">
+                <div class="contact-form">
+                    <form method="get" action="thankyou.html">
+                        <h2>Contact - Volunteer Form</h2>
+
+                        <label for="firstName">First Name:</label><br>
+                        <input type="text" id="firstName" name="firstName" required><br><br>
+
+                        <label for="lastName">Last Name:</label><br>
+                        <input type="text" id="lastName" name="lastName" required><br><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="phone">Phone:</label><br>
+                        <input type="tel" id="phone" name="phone" required><br><br>
+
+                        <label>Are you interested in adopting a pet?</label><br>
+                        <input type="radio" id="adoptYes" name="adopt" value="Yes">
+                        <label for="adoptYes">Yes</label><br>
+                        <input type="radio" id="adoptNo" name="adopt" value="No">
+                        <label for="adoptNo">No</label><br><br>
+
+                        <label>Would you like to donate to the animal shelter?</label><br>
+                        <input type="radio" id="donateYes" name="donate" value="Yes">
+                        <label for="donateYes">Yes</label><br>
+                        <input type="radio" id="donateNo" name="donate" value="No">
+                        <label for="donateNo">No</label><br><br>
+
+                        <label for="donationAmount">If yes, how much would you like to donate? ($):</label><br>
+                        <input type="text" id="donationAmount" name="donationAmount"><br><br>
+
+                        <label for="comments">Questions or Comments:</label><br>
+                        <textarea id="comments" name="comments" rows="5" cols="40"></textarea><br><br>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="testimonials">
+            <h2>What Our Visitors Say</h2>
+            <div class="dogs">
+                <img src="images/dogs1.webp" alt="A happy dog">
+            </div>
+            <div class="testimonial-cards">
+                <div class="testimonial">
+                    <p>"The team at Arkline is amazing! They helped me find the perfect companion and made the adoption
+                        process so easy. Highly recommend!"</p>
+                    <p><strong>- Sarah L.</strong></p>
+                </div>
+                <div class="testimonial">
+                    <p>"I love volunteering here! The animals are so loving, and the staff is dedicated to finding them
+                        forever homes."</p>
+                    <p><strong>- Mark T.</strong></p>
+                </div>
+                <div class="testimonial">
+                    <p>"Arkline is a wonderful place. They truly care about the animals and the community. I always feel
+                        welcome here."</p>
+                    <p><strong>- Emily R.</strong></p>
+                </div>
+            </div>
+        </section>
+        <div id="last-visit-message" class="visit-message"></div>
+    </main>
+    <footer>
+        <div>
+            <h3>Arkline Animal Shelter</h3>
+            <p>3 Quai de l'Archevêché,</p>
+            <p>75004 Paris, France</p>
+            <p>info@arkline.org</p>
+            <p>(883) 465-6400</p>
+        </div>
+        <div>
+            <h3>Hours of Operation</h3>
+            <p>Open</p>
+            <p>Mon - Fri</p>
+            <p>8:00 AM - 5:00 PM</p>
+            <p>Saturday - 10:00 AM - 2:00 PM</p>
+            <p>Closed Sunday</p>
+        </div>
+        <div class="sociallinks">
+
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" width="30"
+                    height="30"></a>
+            <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter" width="30" height="30"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram" width="30"
+                    height="30"></a>
+        </div>
+        <div>
+            <p>WDD231 Final Project</p>
+            <p>Kevin Hernandez</p>
+            <p>&copy;<span id="currentyear"></span> Kevin Hernandez, United States All rights reserved.</p>
+            <p id="LastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

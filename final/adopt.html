@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is the Adopt page for Arkline Animal SHelte  We offer adoption services, community outreach, and educational programs to promote animal welfare.">
+    <meta name="author" content="Kevin Hernandez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta property="og:title" content="Arkline Animal Shelter Adopt Page">
+    <meta property="og:description"
+        content="This is the Adopt page for Arkline Animal SHelte  We offer adoption services, community outreach, and educational programs to promote animal welfare.">
+    <meta property="og:image" content="https://kihernandez.github.io/wdd231/final/images/logo.png">
+    <meta property="og:url" content="https://kihernandez.github.io/wdd231/final/adopt.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Arkline Animal Shelter">
+    <meta property="og:locale" content="en_US">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+    <title>Arkline Animal Shelter Adopt Page</title>
+    <link rel="stylesheet" href="styles/adopt.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <script type="module" src="scripts/adopt.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <img src="images/logo.png" alt="A logo of the site" width="120" height="110">
+            <div class="header-titles">
+                <span class="site-name">Arkline</span>
+                <span class="site-subtitle">Animal Shelter</span>
+            </div>
+        </div>
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="adopt.html" class="active">Adopt</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="adopt">
+            <div class="adopt-contact">
+                <h2>Need Help? Contact Us</h2>
+                <p>If you have any questions please do not hesitate to contact our team we are ready to help you with
+                    everything you need.</p>
+                <p>info@arkline.org</p>
+                <p>(883) 465-6400</p>
+                <h2>Ready to Adopt?</h2>
+                <p>If you are ready to adopt please contact us</p>
+                <a href="contact.html" class="cta-button">Contact Team</a>
+            </div>
+            <div class="adopt-info">
+                <h2>Adopt a Pet</h2>
+                <p>Welcome to the heart of our shelter. Here, every wagging tail and gentle purr carries a story of
+                    resilience, hope, and love waiting to be shared. We invite you to meet the animals who are ready to
+                    bring joy into your life—each one with their own quirks, cuddles, and quiet strength.
+                    Take a moment, scroll through, and if someone tugs at your heart… maybe it's meant to be.</p>
+            </div>
+        </section>
+        <section class="adopt-section">
+            <div class="view-toggle">
+                <button id="gridView" class="toggle-btn active">Grid View</button>
+                <button id="listView" class="toggle-btn">List View</button>
+            </div>
+            <div class="animal-list grid-view"></div>
+        </section>
+        <div id="last-visit-message" class="visit-message"></div>
+
+    </main>
+    <footer>
+        <div>
+            <h3>Arkline Animal Shelter</h3>
+            <p>3 Quai de l'Archevêché,</p>
+            <p>75004 Paris, France</p>
+            <p>info@arkline.org</p>
+            <p>(883) 465-6400</p>
+        </div>
+        <div>
+            <h3>Hours of Operation</h3>
+            <p>Open</p>
+            <p>Mon - Fri</p>
+            <p>8:00 AM - 5:00 PM</p>
+            <p>Saturday - 10:00 AM - 2:00 PM</p>
+            <p>Closed Sunday</p>
+        </div>
+        <div class="sociallinks">
+
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" width="30"
+                    height="30"></a>
+            <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter" width="30" height="30"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram" width="30"
+                    height="30"></a>
+        </div>
+        <div>
+            <p>WDD231 Final Project</p>
+            <p>Kevin Hernandez</p>
+            <p>&copy;<span id="currentyear"></span> Kevin Hernandez, United States All rights reserved.</p>
+            <p id="LastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

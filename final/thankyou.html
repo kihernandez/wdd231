@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This the Thank you page for Arkline Animal Shelter, where the user can see a summary of their submitted information.">
+    <meta name="author" content="Kevin Hernandez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta property="og:title" content="Arkline Animal Shelter Thank You Page">
+    <meta property="og:description"
+        content="This the Thank you page for Arkline Animal Shelter, where the user can see a summary of their submitted information.">
+    <meta property="og:image" content="https://kihernandez.github.io/wdd231/final/images/logo.png">
+    <meta property="og:url" content="https://kihernandez.github.io/wdd231/final/thankyou.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Arkline Animal Shelter">
+    <meta property="og:locale" content="en_US">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+    <title>Arkline Animal Shelter Thank You Page</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <script src="scripts/contact.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <img src="images/logo.png" alt="A logo of the site" width="120" height="110">
+            <div class="header-titles">
+                <span class="site-name">Arkline</span>
+                <span class="site-subtitle">Animal Shelter</span>
+            </div>
+        </div>
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="adopt.html">Adopt</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="thankyou">
+            <div class="thankyou-content">
+                <h1>Thank You for your Support!</h1>
+                <p>Here's a summary of your submitted information:</p>
+                <ul>
+                    <li><strong>First Name:</strong> <span id="firstName"></span></li>
+                    <li><strong>Last Name:</strong> <span id="lastName"></span></li>
+                    <li><strong>Email:</strong> <span id="email"></span></li>
+                    <li><strong>Phone:</strong> <span id="phone"></span></li>
+                    <li><strong>Interested in Adopting:</strong> <span id="adopt"></span></li>
+                    <li><strong>Interested in Donating:</strong> <span id="donate"></span></li>
+                    <li><strong>Donation Amount:</strong> <span id="donationAmount"></span></li>
+                    <li><strong>Comments:</strong> <span id="comments"></span></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h3>Arkline Animal Shelter</h3>
+            <p>3 Quai de l'Archevêché,</p>
+            <p>75004 Paris, France</p>
+            <p>info@arkline.org</p>
+            <p>(883) 465-6400</p>
+        </div>
+        <div>
+            <h3>Hours of Operation</h3>
+            <p>Open</p>
+            <p>Mon - Fri</p>
+            <p>8:00 AM - 5:00 PM</p>
+            <p>Saturday - 10:00 AM - 2:00 PM</p>
+            <p>Closed Sunday</p>
+        </div>
+        <div class="sociallinks">
+
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" width="30"
+                    height="30"></a>
+            <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter" width="30" height="30"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram" width="30"
+                    height="30"></a>
+        </div>
+        <div>
+            <p>WDD231 Final Project</p>
+            <p>Kevin Hernandez</p>
+            <p>&copy;<span id="currentyear"></span> Kevin Hernandez, United States All rights reserved.</p>
+            <p id="LastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
